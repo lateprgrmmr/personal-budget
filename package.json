@@ -1,0 +1,16 @@
+{
+  "name": "personal-budget",
+  "version": "1.0.0",
+  "description": "Portfolio project to build a personal budget",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Bratt",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
