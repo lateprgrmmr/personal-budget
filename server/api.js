@@ -1,8 +1,8 @@
 const express = require("express");
 const apiRouter = express.Router();
 
-const testRouter = require("./test");
+const envelopeRouter = require("./envelope");
 
-apiRouter.use("/test", testRouter);
+apiRouter.use("/envelope", envelopeRouter);
 
 module.exports = apiRouter;

@@ -9,9 +9,10 @@ const cors = require("cors");
 app.use(cors());
 const bodyParser = require("body-parser");
 app.use(bodyParser.json());
+// app.use(express.json());
 
 const apiRouter = require("./server/api");
-app.use("/api", apiRouter);
+app.use("/", apiRouter);
 
 app.listen(PORT, () => {
   console.log(`Hello world, server is listening on port ${PORT}`);
